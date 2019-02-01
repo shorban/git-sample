@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.0.15.165 SP"?>
+<?AutomationStudio Version="4.5.2.102"?>
 <Project xmlns="http://br-automation.co.at/AS/VC/Project">
   <Property Name="Backlight" Value="False"/>
-  <Property Name="BacklightIgnoreFirst" Value="False"/>
   <Property Name="BeepKey" Value="False"/>
   <Property Name="BeepTouch" Value="False"/>
   <Property Name="CalibrationDatapoint" Value="None"/>
@@ -144,6 +143,8 @@
     <Source File="Bitmaps\Img_Warning.bminfo"/>
     <Source File="Bitmaps\button_control.bminfo"/>
     <Source File="Bitmaps\button_control_pressed.bminfo"/>
+    <Source File="Bitmaps\GreyLamp24px.bminfo"/>
+    <Source File="Bitmaps\GreenLamp24px.bminfo"/>
     <Source File="BitmapGroups\AlarmAcknowledgeState.bmgrp"/>
     <Source File="BitmapGroups\AlarmBypassState.bmgrp"/>
     <Source File="BitmapGroups\AlarmEvent.bmgrp"/>
@@ -152,6 +153,7 @@
     <Source File="BitmapGroups\GlobalArea.bmgrp"/>
     <Source File="BitmapGroups\Pads.bmgrp"/>
     <Source File="BitmapGroups\msgBox.bmgrp"/>
+    <Source File="BitmapGroups\Lamp24_GreyGreen.bmgrp"/>
     <Source File="Pages\tmpl10_MainPage.page"/>
     <Source File="Pages\tmpl00_StartPage.page"/>
     <Source File="Pages\tmpl60_Setup.page"/>
