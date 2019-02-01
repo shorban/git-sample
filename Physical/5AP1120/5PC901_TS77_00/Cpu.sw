@@ -4,5 +4,7 @@
   <TaskClass Name="Cyclic#1" />
   <TaskClass Name="Cyclic#2" />
   <TaskClass Name="Cyclic#3" />
-  <TaskClass Name="Cyclic#4" />
+  <TaskClass Name="Cyclic#4">
+    <Task Name="Snake" Source="Snake.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
+  </TaskClass>
 </SwConfiguration>
