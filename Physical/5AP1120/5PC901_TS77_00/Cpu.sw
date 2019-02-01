@@ -7,4 +7,7 @@
   <TaskClass Name="Cyclic#4">
     <Task Name="Snake" Source="Snake.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
   </TaskClass>
+  <VcDataObjects>
+    <VcDataObject Name="Visu" Source="Visu.dob" Memory="UserROM" Language="Vc" WarningLevel="2" Compress="false" />
+  </VcDataObjects>
 </SwConfiguration>

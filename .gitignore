@@ -1,10 +1,8 @@
 Binaries/
 Diagnosis/
-LastUser.set
 Temp/
-artei.set
-kkomorochkin.set
-testskif.isopen
-
+*.set
+*.isopen
+*.orig
 *.sublime-workspace
 *.sublime-project
