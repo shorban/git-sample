@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="BMain" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		
+  <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Led[0]" attribute="value" />
+<Target xsi:type="brease" contentRefId="MainContent" widgetRefId="CheckBox1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Led[7]" attribute="value" />
+<Target xsi:type="brease" contentRefId="MainContent" widgetRefId="CheckBox8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Led[5]" attribute="value" />
+<Target xsi:type="brease" contentRefId="MainContent" widgetRefId="CheckBox6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Led[6]" attribute="value" />
+<Target xsi:type="brease" contentRefId="MainContent" widgetRefId="CheckBox7" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Led[3]" attribute="value" />
+<Target xsi:type="brease" contentRefId="MainContent" widgetRefId="CheckBox4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Led[4]" attribute="value" />
+<Target xsi:type="brease" contentRefId="MainContent" widgetRefId="CheckBox5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Led[1]" attribute="value" />
+<Target xsi:type="brease" contentRefId="MainContent" widgetRefId="CheckBox2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Led[2]" attribute="value" />
+<Target xsi:type="brease" contentRefId="MainContent" widgetRefId="CheckBox3" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>
